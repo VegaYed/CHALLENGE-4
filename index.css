@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+:root {
+  --Blue: hsl(223, 87%, 63%);
+  --PaleBlue: hsl(223, 100%, 88%);
+  --LightRed: hsl(354, 100%, 66%);
+  --Gray: hsl(0, 0%, 59%);
+  --VeryDarkBlue: hsl(209, 33%, 12%);
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 1.5em;
+  padding: 1em;
+}
+
+header h2 {
+  padding-bottom: 0.5em;
+  font-size: 2em;
+  font-weight: 200;
+  color: var(--Gray);
+}
+
+.soon {
+  color: black;
+  font-size: inherit;
+  font-weight: 600;
+}
+
+.dot {
+  font-size: inherit;
+  color: var(--Blue);
+}
+
+header p {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.form input {
+  font-size: 14px;
+  width: 390px;
+  padding: 1em 1em;
+  border-radius: 30px;
+  border: 1px solid var(--PaleBlue);
+  color: var(--Gray);
+  margin-left: 1em;
+}
+
+.form #btnemail {
+  border: none;
+  background-color: var(--Blue);
+  color: white;
+  width: 190px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 50px;
+}
+
+.main img {
+  width: 650px;
+}
+
+footer {
+  text-align: center;
+  color: var(--Gray);
+}
+
+.icon {
+  color: white;
+  background-color: blue;
+  border-radius: inherit;
+}
